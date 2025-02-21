@@ -223,7 +223,7 @@
                                 </MenuItem.Header>
                             </MenuItem>
                         </Menu>
-                        <Separator Visibility="Collapsed" />
+                        <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
                             <MenuItem Name="menuCheckUpdate" Visibility="Collapsed" Padding="8,0">
                                 <MenuItem.Header>
@@ -237,7 +237,7 @@
                                 </MenuItem.Header>
                             </MenuItem>
                         </Menu>
-                        <Separator Visibility="Collapsed" />
+                        <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
                             <MenuItem x:Name="menuHelp" Visibility="Collapsed" Padding="8,0">
                                 <MenuItem.Header>
@@ -251,7 +251,7 @@
                                 </MenuItem.Header>
                             </MenuItem>
                         </Menu>
-                        <Separator Visibility="Collapsed" />
+                        <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
                             <MenuItem x:Name="menuPromotion" Visibility="Collapsed" Padding="8,0">
                                 <MenuItem.Header>
@@ -265,7 +265,7 @@
                                 </MenuItem.Header>
                             </MenuItem>
                         </Menu>
-                        <Separator Visibility="Collapsed" />
+                        <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
                             <MenuItem x:Name="menuClose" Padding="8,0">
                                 <MenuItem.Header>
