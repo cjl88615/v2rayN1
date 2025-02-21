@@ -9,7 +9,7 @@
     xmlns:resx="clr-namespace:ServiceLib.Resx;assembly=ServiceLib"
     xmlns:vms="clr-namespace:ServiceLib.ViewModels;assembly=ServiceLib"
     xmlns:view="clr-namespace:v2rayN.Views"
-    Title="v2rayN"
+    Title="TaliabuVPN"
     Width="900"
     Height="700"
     MinWidth="900"
@@ -225,7 +225,7 @@
                         </Menu>
                         <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
-                            <MenuItem Name="menuCheckUpdate" Padding="8,0">
+                            <MenuItem Name="menuCheckUpdate" Visibility="Collapsed" Padding="8,0">
                                 <MenuItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon
@@ -239,7 +239,7 @@
                         </Menu>
                         <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
-                            <MenuItem x:Name="menuHelp" Padding="8,0">
+                            <MenuItem x:Name="menuHelp" Visibility="Collapsed" Padding="8,0">
                                 <MenuItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon
@@ -253,7 +253,7 @@
                         </Menu>
                         <Separator />
                         <Menu Margin="0,1" Style="{StaticResource ToolbarMenu}">
-                            <MenuItem x:Name="menuPromotion" Padding="8,0">
+                            <MenuItem x:Name="menuPromotion" Visibility="Collapsed" Padding="8,0">
                                 <MenuItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon
